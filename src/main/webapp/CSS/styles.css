@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 août 2016, 13:11:00
+    Author     : admin
+*/
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    background-color: #4A412A;
+    color: #8CC6D7;
+}
+
+.menu {
+    margin: 5px;
+    font-family: 'Ewert', cursive;
+    font-size: 25px;
+    color: #FF456A;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.input {
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 100px;
+    color: #63FFB2;
+}
+
+h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    color: #E2AD3B;
+}
+
+.button {
+    width: 200px;
+    border-radius: 25px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    background-color: #B83A1B;
+    margin: 20px;
+}
+
+.sup {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.modif {
+    font-size: 25px;
+    text-decoration: none;
+    color: #AEEE00;
+}

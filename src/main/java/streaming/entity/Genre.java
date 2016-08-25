@@ -30,6 +30,8 @@ public class Genre implements Serializable {
 
     @OneToMany(mappedBy = "genre")
     private Collection<Film> films = new ArrayList<>();
+    
+   
 
     public String getNom() {
         return nom;
