@@ -28,7 +28,7 @@
 
         <ol>
             <c:forEach items="${listSerie}" var="serie">
-                <li><strong><big>${serie.titre}</big></strong>
+                <li><strong><big>${serie.titre}</big></strong>, ${serie.annee}
                     <a class="sup" href="<spring:url value="/supprimer_serie/${serie.id}"/>">Supprimer</a>
                     <a class="modif" href="<spring:url value="/modifier_serie/${serie.id}"/>">Modifier</a>
                 </li>        

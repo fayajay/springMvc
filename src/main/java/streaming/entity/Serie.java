@@ -25,6 +25,26 @@ public class Serie implements Serializable {
     private Long id;
     
     private String titre;
+    private Long annee;
+    
+    
+    public Serie() {
+    }
+
+    public Serie(Long id, String titre, Long annee/*, Genre genre*/) {
+        this.id = id;
+        this.titre = titre;
+        this.annee = annee;
+        //this.genre = genre;
+    }
+
+    public Long getAnnee() {
+        return annee;
+    }
+
+    public void setAnnee(Long annee) {
+        this.annee = annee;
+    }
     
     
 

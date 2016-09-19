@@ -27,7 +27,8 @@
         <a class="menu" href="<spring:url value="/genre_lister"/>">Liste des Genres</a>
         
          <form:form modelAttribute="serie" class="form">
-            Titre : <form:input path="titre" class="input"></form:input><br>
+            <spring:message code="cle12" /><form:input path="titre" class="input"></form:input><br>
+            <spring:message code="cle13" /><form:input path="annee" class="input"></form:input><br>
             <input type="submit" value="Ajouter" class="button"/>
         </form:form>
     </body>
